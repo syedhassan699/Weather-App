@@ -9,6 +9,9 @@ import android.os.Build
 @Suppress("DEPRECATION")
 object Constants {
 
+    const val APP_ID:String = "233f30efce07458247dfee88a9805a43"
+    const val BASE_URL: String = "https://api.openweathermap.org/data/2.5/"
+    const val METRIC_UNIT: String = "Metric"
     @SuppressLint("ObsoleteSdkInt")
     fun isNetworkAvailable(context: Context):Boolean{
         val connectivityManager =
